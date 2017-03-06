@@ -1,0 +1,14 @@
+{
+    "name": "caxy/drupal8-demo",
+    "type": "drupal-profile",
+    "description": "test install for Drupal 8 site",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packagist.drupal-composer.org"
+        }
+    ],
+    "require": {
+        "drupal/metatag": "~8.0@dev"
+    }
+}

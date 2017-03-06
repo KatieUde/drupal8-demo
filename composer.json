@@ -21,7 +21,8 @@
         "cweagans/composer-patches": "~1.0",
         "drupal/core": "~8.0",
         "drush/drush": "~8.0",
-        "drupal/console": "~1.0"
+        "drupal/console": "~1.0",
+        "wikimedia/composer-merge-plugin": "^1.3.0"
     },
     "require-dev": {
         "behat/mink": "~1.7",
@@ -69,6 +70,11 @@
             "docroot/profiles/contrib/{$name}": ["type:drupal-profile"],
             "docroot/themes/contrib/{$name}": ["type:drupal-theme"],
             "drush/contrib/{$name}": ["type:drupal-drush"]
+        },
+        "merge-plugin": {
+            "include": [
+                "docroot/profiles/drupal8demo/composer.json"
+            ]
         }
     }
 }
