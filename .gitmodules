@@ -1,3 +1,6 @@
 [submodule "styleguide"]
 	path = styleguide
 	url = git@github.com:KatieUde/drupal8demo-styleguide.git
+[submodule "drupal8demo-styleguide"]
+	path = drupal8demo-styleguide
+	url = git@github.com:KatieUde/drupal8demo-styleguide.git
